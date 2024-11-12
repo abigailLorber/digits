@@ -9,39 +9,30 @@
 2. `cd` into the directory of your local copy of the repo, and install third party libraries with:
 
 ```
-
 npm install
-
 ```
 
 3. Run the Prisma migration to set up the PostgreSQL tables:
 
 ```
-
 npx prisma migrate dev
-
 ```
 
 4. Seed the database:
 
 ```
-
 npx prisma db seed
-
 ```
 
 5. Once the libraries are installed and the database seeded, you can run the application by invoking the "dev" script:
 
 ```
-
 npm run dev
-
 ```
 
 6. You can verify that the code obeys our coding standards by running ESLint over the code in the `src/` directory with:
 
 ```
-
 npm run lint
 ```
 

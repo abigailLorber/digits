@@ -42,7 +42,7 @@ The following sections describe the major features of this template.
 
 #### Landing page
 
-When you retrieve the app at http://localhost:3000, this is what should be displayed:
+Landing page of the application:
 
 <img src="doc/landing-page.png">
 
@@ -100,4 +100,4 @@ You can add a contact by clicking "Add Contact" on the navbar. You can be a regu
 
 Lists all of the contacts that that specific user has created. This page does not show contacts that other users or admins have created.
 
-<img src="doc/list-contact.png>
+<img src="doc/list-contact.png">

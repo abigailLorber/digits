@@ -30,7 +30,7 @@ npx prisma db seed
 npm run dev
 ```
 
-6. You can verify that the code obeys our coding standards by running ESLint over the code in the `src/` directory with:
+6. You can verify that the code is formatted by running ESLint in the `src/` directory with:
 
 ```
 npm run lint
@@ -72,7 +72,7 @@ You can define an "admin" user in the settings.json file. This user, after loggi
 
 #### Admin List Contacts
 
-This page shows any contacts that the admin has created. In this example, "John Doe" shows up because they are the only contact that the admin has created.
+This page shows any contacts that the admin has created. In this example, "John Doe" shows up because they are the only contact that the admin has created:
 
 <img src="doc/admin-list-page.png">
 
@@ -86,18 +86,18 @@ In this example, 3 contacts appear (1 contact created by the admin@foo.com user,
 
 #### Sign Out page
 
-You can sign out and login to a different account.
+You can sign out and login to a different account:
 
 <img src="doc/signout-page.png">
 
 #### Add Contact Page
 
-You can add a contact by clicking "Add Contact" on the navbar. You can be a regular user or an admin user to create a contact.
+You can add a contact by clicking "Add Contact" on the navbar. You can be a regular user or an admin user to create a contact:
 
 <img src="doc/add-contact.png">
 
 #### List Contacts Page
 
-Lists all of the contacts that that specific user has created. This page does not show contacts that other users or admins have created.
+Lists all of the contacts that that specific user has created. This page does not show contacts that other users or admins have created:
 
 <img src="doc/list-contact.png">

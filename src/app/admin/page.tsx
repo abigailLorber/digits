@@ -25,7 +25,7 @@ const AdminPage = async () => {
       <Container id="list" fluid className="py-3">
         <Row>
           <Col>
-            <h1>List Contacts Admin</h1>
+            <h2 className="text-center">List Contacts Admin</h2>
             <Row xs={1} md={2} lg={3} className="g-4 mt-3">
               {contacts.map((contact) => (
                 <Col key={contact.firstName + contact.lastName}>
